@@ -1,0 +1,16 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: promotion-service
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+app:
+  redis:
+    channel:
+      promotion-updates: promotion-updates
